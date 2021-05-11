@@ -6,7 +6,7 @@ const dbConn = mysql.createConnection({
 	host : 'localhost',
 	user : 'root',
 	password : '',
-	database : 'vision',
+	database : 'node_crud_test',
 	port : 3306
 });
 
