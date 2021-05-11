@@ -30,7 +30,11 @@ if(err) {
   result(err, null);
 }
 else{
-  result(null, res);
+  if(res.length===0){
+    result({ error:true, message: 'User does not exist!' });
+  }
+  else{
+  result(null, res);}
 }
 });
 };
