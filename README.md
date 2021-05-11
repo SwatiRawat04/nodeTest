@@ -1,5 +1,4 @@
 # nodeTest
-# nodeTest
 Please upload database with database name "node_crud_test" and table name is "users".
 
 In the project folder, please run: npm install
