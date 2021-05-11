@@ -1,4 +1,4 @@
-'user strict';
+'use strict';
 var dbConn = require('./../../config/db.config');
 var Users = function(users){
   this.first_name     = users.first_name;

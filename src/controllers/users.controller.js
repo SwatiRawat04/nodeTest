@@ -1,4 +1,4 @@
-'user strict';
+'use strict';
 const Users = require('../models/users.model');
 exports.findAll = function(req, res) {
 Users.findAll(function(err, user) {
